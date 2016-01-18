@@ -1,11 +1,11 @@
-== gopixabay ==
+# gopixabay
 
 Have you ever needed a bunch of images with specific content, size or resolution? 
 This, and http://pixabay.com can help with that!
 
 gopixabay be used as an api library or as a standalone cli application.
 
-== CLI  ==
+## CLI
 
 ```
 $ gopixabay -k <insert api key> -t photo --per-page 10 --size og -g high_resolution --min-width 1920 --min-height 1080 /tmp
@@ -24,7 +24,7 @@ $ gopixabay -k <insert api key> -t photo --per-page 10 --size og -g high_resolut
 4.5 MB/4.5 MB e834b2062bfd093ecd0b440de...   --- [====================================================================] 100%
 ```
 
-=== Usage and flags  ===
+### Usage and flags
 
 ```
 go-pixabay is an image downloader using the pixabay API
