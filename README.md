@@ -33,17 +33,17 @@ $ gopixabay -k <insert api key> -t photo --per-page 10 --size og -g high_resolut
 ### Usage and flags
 
 ```
-go-pixabay is an image downloader using the pixabay API
+gopixabay is an image downloader using the pixabay API
 
 Usage:
-  go-pixabay /path/to/output [flags]
+  gopixabay /path/to/output [flags]
 
 Flags:
       --callback string         JSONP callback function name
   -c, --category string         Filter images by category. (fashion, nature, backgrounds, science, education, people, feelings, religion, health, places, animals, industry, food, computer, sports, transportation, travel, buildings, business, music)
       --config string           config file (default is $HOME/.gopixabay.yaml)
   -e, --editors-choice          Select images that have received an Editor's Choice award. 
-  -h, --help                    help for go-pixabay
+  -h, --help                    help for gopixabay
       --id string               ID, ID hash, or a comma separated list of values for fetching or updating specific images. In a comma separated list, IDs and ID hashs cannot be used together.
   -t, --image-type string       A media type to search within. (all, photo, illustration, vector) (default "all")
   -k, --key string              Your pixabay API key
